@@ -192,6 +192,7 @@ border-bottom: 1px solid #EDEDED;
     border-radius: 800px;
     position: relative;
     flex-basis: 52%;
+    margin: 0 auto;
 }
 .col-text{
     flex-basis: 42%;
@@ -393,12 +394,8 @@ border-bottom: 1px solid #EDEDED;
         color:#161A34 ;
         font-size: 90px;
         font-weight: 700;
-        line-height: 108px;
         letter-spacing: -2px;
-        position: absolute;
-        left: 0;
-        top: 80px;
-        margin-right: auto;
+        margin: 110px 0 0 0;
     }
 /* Close Third Section */
 @media(max-width:991px) {
@@ -410,6 +407,9 @@ border-bottom: 1px solid #EDEDED;
 @media(max-width: 767px) {
     .container {
         width: 100%;
+    }
+    .hero-rowheader{
+        border-bottom: 1px solid #EDEDED;
     }
     .col-hed1, .col-hed2{
         flex-basis: 49%;
@@ -426,14 +426,31 @@ border-bottom: 1px solid #EDEDED;
     .mordern-col2{
         flex-basis: 100%;
     }
-    /* .col-shoes{
-        flex-basis: 100%;    
+    .col-shoes{ 
+        height: 450px;  
     }
     .col-text{
-        flex-basis: 100%;    
-    } */
-
+        flex-basis: 80%;
+        padding: 0 40px;    
+    }
+    .mordentextWrap h1 {
+        font-size: 86px;
+        line-height: 80px;
+        letter-spacing: -4px;
+    }
+    .mordentextWrap h1::after{
+        top: 90px;
+    }
     .col-category{
         flex-basis: 100%;
+    }
+    .shoesWrap {
+        width: 150%;
+        top: 10%;
+        left: -40%;
+        height: 10px;
+    }
+    .trust-icon ul li:nth-child(2) {
+        bottom: 14%;
     }
 }
