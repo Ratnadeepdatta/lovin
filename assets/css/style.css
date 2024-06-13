@@ -437,9 +437,15 @@ border-bottom: 1px solid #EDEDED;
         padding: 0 40px;    
     }
     .mordentextWrap h1 {
-        font-size: 86px;
-        line-height: 80px;
+        font-size: 66px;
+        line-height: 60px;
         letter-spacing: -4px;
+    }
+    .trust-icon ul li:nth-child(3){
+        right:-32%;
+    }
+    .trust-icon ul li:nth-child(2){
+        right:-32%;
     }
     .mordentextWrap h1::after{
         top: 90px;
