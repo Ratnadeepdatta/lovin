@@ -400,7 +400,7 @@ border-bottom: 1px solid #EDEDED;
 /* Close Third Section */
 @media(max-width:991px) {
     .container {
-        width: 1200px;
+        width: 980px;
     }
 
 }
@@ -429,9 +429,17 @@ border-bottom: 1px solid #EDEDED;
     .col-shoes{ 
         height: 450px;  
     }
+    .trust-icon ul li:nth-child(3){
+        right: -32%;
+    }
+    .trust-icon ul li:nth-child(2){
+        right: -32%;
+    }
     .col-text{
-        flex-basis: 80%;
-        padding: 0 40px;    
+        font-size: 78px;
+        line-height: 70px;
+        letter-spacing: -4px;
+    }   
     }
     .mordentextWrap h1 {
         font-size: 86px;
