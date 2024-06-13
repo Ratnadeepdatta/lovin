@@ -406,7 +406,7 @@ border-bottom: 1px solid #EDEDED;
 }
 @media(max-width: 767px) {
     .container {
-        width: 100%;
+        width: 88%;
     }
     .hero-rowheader{
         border-bottom: 1px solid #EDEDED;
