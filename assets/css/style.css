@@ -429,17 +429,12 @@ border-bottom: 1px solid #EDEDED;
     .col-shoes{ 
         height: 450px;  
     }
-    .trust-icon ul li:nth-child(3){
-        right: -32%;
-    }
-    .trust-icon ul li:nth-child(2){
-        right: -32%;
+    .mordentextWrap h1::after {
+        display: none;
     }
     .col-text{
-        font-size: 78px;
-        line-height: 70px;
-        letter-spacing: -4px;
-      
+        flex-basis: 80%;
+        padding: 0 40px;    
     }
     .mordentextWrap h1 {
         font-size: 86px;
